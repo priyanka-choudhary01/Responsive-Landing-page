@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #333;
+  color: white;
+  padding: 10px 0;
+  transition: background 0.3s;
+  z-index: 1000;
+}
+
+nav.scrolled {
+  background: #a66f6f;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: yellow;
+  font-family: 'Times New Roman', Times, serif;
+}
+section{
+    margin-top: 50px;
+    margin-left: 10px;
+}
